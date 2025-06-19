@@ -13,4 +13,4 @@ jobs:
       - run:
           name: Push application Docker image
           command: |
-            docker build 
+            docker build -t veco . --progress=plain
